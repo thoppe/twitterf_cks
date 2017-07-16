@@ -12,7 +12,7 @@ debug_cutoff = 10**20
 
 def process(f):
     return [json.dumps(js) for (js,FLAG)
-            in filter_pattern(F_RAW[0], keyword)
+            in filter_pattern(f, keyword)
             if FLAG]
 
 func = joblib.delayed(process)
