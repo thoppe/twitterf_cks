@@ -3,10 +3,11 @@ access_tokens.json
 
 # Data source to be pulled
 raw_firehose
+collected_keywords.json
 
 # Files not to be commited
 data/*_raw.csv
 
 # Temp files
 *~
-
+*.pyc

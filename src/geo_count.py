@@ -4,12 +4,6 @@ from unidecode import unidecode
 from tqdm import tqdm
 import pandas as pd
 
-save_dest = 'data'
-os.system('mkdir -p {}'.format(save_dest))
-
-F_RAW = glob.glob("raw_firehose/*")
-debug_cutoff = 10**20
-
 def filter_pattern(f, keyword):
     with codecs.open(f,'r','utf-8') as FIN:
         for line in FIN:
@@ -67,9 +61,15 @@ if __name__ == "__main__":
     keyword = "fuck"
     df = pd.DataFrame()
 
+    F_RAW = glob.glob("raw_firehose/*")
+    debug_cutoff = 10**20
+
     func = joblib.delayed(read_pattern)
     ITR = tqdm(F_RAW[:debug_cutoff])
     info = {}
+
+    save_dest = 'data'
+    os.system('mkdir -p {}'.format(save_dest))
 
     with joblib.Parallel(-1) as MP:
         for dfx,infox in MP(func(x, keyword) for x in ITR):
