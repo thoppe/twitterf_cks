@@ -16,3 +16,9 @@ Requires a file in the local directory named `access_tokens.json` with the follo
     "access_secret":"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }
 ```
+
+### Geo processing
+
+Count and collapse data over geolocations
+
+    python src/geo_count.py
