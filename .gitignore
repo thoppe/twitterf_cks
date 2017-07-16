@@ -1,0 +1,9 @@
+# Don't save access tokens to repo
+access_tokens.json
+
+# Data source to be pulled
+raw_firehose
+
+# Temp files
+*~
+
