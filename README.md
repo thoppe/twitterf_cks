@@ -55,4 +55,4 @@ Compute sentiment analysis over the collected tweets
 Plot propensity over the cities
 
     python src/plot_cities.py
-
+    python src/plot_states.py
