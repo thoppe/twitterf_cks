@@ -15,7 +15,6 @@ df = pd.read_csv("data/fucks_to_give_geo_raw.csv")#.set_index('full_name')
 df['state'] = df.full_name.str.split(', ').apply(lambda x:x[-1])
 mean  = df['keyword'].sum()/float(df['_all'].sum())
 
-
 dfx = pd.DataFrame()
 dfx['_all'] = df.groupby("state")['_all'].sum()
 dfx['keyword'] = df.groupby("state")['keyword'].sum()
@@ -23,6 +22,8 @@ dfx['average'] = dfx.keyword/dfx._all.astype(float)
 dfx['delta'] = dfx.average - mean
 dfx['frac'] = dfx.average / mean
 dfx = dfx.sort_values('delta')
+
+dfx.to_csv("data/fucks_to_give_geo_state.csv")
 
 # Lambert Conformal map of lower 48 states.
 resolution = ['c','l','i','h','f'][2] # Higher is better but takes longer
@@ -135,9 +136,6 @@ for abbr in dfx.index:
         seg = m.states[i]
         poly = Polygon(seg, facecolor=color,edgecolor=None)
         ax.add_patch(poly)
-
-        print abbr, avg, i, color
-        
 
 draw_map_background(m, ax)
 
