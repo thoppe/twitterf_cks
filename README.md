@@ -14,7 +14,7 @@ Full dataset provided in [`data/fucks_to_give_geo.csv`](data/fucks_to_give_geo.c
 State level aggregation dataset provided in [`data/fucks_to_give_geo_state.csv`](data/fucks_to_give_geo_state.csv). Top and bottom five states listed below:
 
 | State | total tweets | Fraction of fucks per baseline of 21 fucks per 1000 tweets |
-|------ |---------|
+|------ |---------|----|
 |MT	| 9976 |0.493|
 |AR	| 36957 |0.532| 
 |DC	| 94142| 0.556|
