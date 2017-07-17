@@ -13,20 +13,20 @@ Full dataset provided in [`data/fucks_to_give_geo.csv`](data/fucks_to_give_geo.c
 
 State level aggregation dataset provided in [`data/fucks_to_give_geo_state.csv`](data/fucks_to_give_geo_state.csv). Top and bottom five states listed below:
 
-| State | total tweets | Fraction of fucks per baseline of 21 fucks per 1000 tweets |
+| State | total tweets | # of fucks per 1000 tweets (US baseline is 21)|
 |------ |---------|----|
-|MT	| 9976 |0.493|
-|AR	| 36957 |0.532| 
-|DC	| 94142| 0.556|
-|NE	| 42636|0.647|
-|MO	| 108180|0.654|
+|MT	| 9976 |10.4|
+|AR	| 36957 |11.2| 
+|DC	| 94142| 11.7|
+|NE	| 42636|13.6|
+|MO	| 108180|13.7|
 |[...](data/fucks_to_give_geo_state.csv)   | [...](data/fucks_to_give_geo_state.csv) | [...](data/fucks_to_give_geo_state.csv) |
-|ND	|7699 |	1.116|
-|LA	| 216023| 	1.116|
-|AZ	| 173604|	1.179|
-|NV	| 127481|	1.231|
-|CA	| 1377434|	1.269|
-|WY	| 5357|	1.314|
+|ND	|7699 |	23.4|
+|LA	| 216023| 	23.4|
+|AZ	| 173604|	24.8|
+|NV	| 127481|	25.9|
+|CA	| 1377434|	26.7|
+|WY	| 5357|	27.6|
 
 
 #### Sentiment analysis
