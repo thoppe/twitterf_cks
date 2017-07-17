@@ -5,6 +5,7 @@ A total of 10,740,172 tweets were collected, 228,641 contained the word fuck.
 The national average is 2.1 fucks per 100 tweets.
 
 ![Fuck_per_city](figures/fucks_given_per_city.png "Fucks per city")
+![Fuck_per_state](figures/fucks_given_national.png "Fucks per state")
 
 
 | cat related tweet | sentiment |
