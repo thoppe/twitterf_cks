@@ -6,14 +6,14 @@ The national average is 2.1 fucks per 100 tweets.
 
 #### Geographical analysis
 
-Full data file provided in [data/fucks_to_give_geo.csv](data/fucks_to_give_geo.csv)
+Full dataset provided in [`data/fucks_to_give_geo.csv`](data/fucks_to_give_geo.csv)
 
 ![Fuck_per_city](figures/fucks_given_per_city.png "Fucks per city")
 ![Fuck_per_state](figures/fucks_given_national.png "Fucks per state")
 
 #### Sentiment analysis
 
-Full data file provided in [data/fucking_sentiment.csv](data/fucking_sentiment.csv]), selected fucks with the word cat in them are shown.
+Full dataset provided in [`data/fucking_sentiment.csv`](data/fucking_sentiment.csv), selected fucks with the word cat in them are shown.
 
 | cat related tweet | sentiment |
 | ------| --------- |
