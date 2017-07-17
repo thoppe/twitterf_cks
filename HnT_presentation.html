@@ -116,7 +116,7 @@
     <text>
      in fact,
      <strong>
-      2.1%
+      2.3%
      </strong>
      of all tweets on twitter contain the word
      <em>
@@ -199,114 +199,142 @@
    </text>
   </h3>
  </div>
-</section><section class="bg-black slide" id="slide-number-4">
- <span class="background" style="background-image:url('https://source.unsplash.com/MzIiekUr6m8')">
+</section><section class="aligncenter bg-black slide" id="slide-number-4">
+ <h1>
+  <text>
+   Geographical analysis, city level
+  </text>
+ </h1>
+ <figure>
+  <img src="figures/fucks_given_per_city.png" style=""/>
+ </figure>
+</section><section class="aligncenter bg-black slide" id="slide-number-5">
+ <h1>
+  <text>
+   Geographical analysis, state level
+  </text>
+ </h1>
+ <figure>
+  <img src="figures/fucks_given_national.png" style=""/>
+ </figure>
+</section><section class="bg-black slide" id="slide-number-6">
+ <span class="background dark" style="background-image:url('https://source.unsplash.com/zlABb6Gke24')">
  </span>
  <div class="wrap">
-  <div class="size-60 bg-trans-dark alignleft">
-   <h4 class="text-landing">
-    <text>
-     <strong>
-      Lovecraft bot
-     </strong>
-    </text>
-   </h4>
-   <div class="text-intro ..">
-    <text>
-     the moon between the terrestrial, where the twilight floor at the old innsmouth staircase ran rise from behind. No one could not absent to all the thing of publicly suggestion. above my frightful more I suspected that the
-    </text>
-   </div>
-   <hr/>
-   <h4 class="text-landing">
-    <text>
-     <strong>
-      Hemmingway bot
-     </strong>
-    </text>
-   </h4>
-   <div class="text-intro ..the">
-    <text>
-     moon will clear the cold. I was like a brown mother. Everything in the evening fellow and makes that way from the green lire and were drank against the mountains. The sun was on the branch contempt.
-    </text>
-   </div>
-  </div>
+  <h1>
+   <text>
+    Least fucks given
+   </text>
+  </h1>
+  <pre class="prettyprint">State, total, # of fucks per 1000 tweets
+=====================================================
+MT     9976    10.4
+AR     36957   11.2
+DC     94142   11.7
+NE     42636   13.6
+MO     108180  13.7</pre>
+  <h1>
+   <text>
+    Most fucks given
+   </text>
+  </h1>
+  <pre class="prettyprint">State, total, # of fucks per 1000 tweets
+=====================================================
+ND     7699     23.4
+LA     216023   23.4
+AZ     173604   24.8
+NV     127481   25.9
+CA     1377434  26.7
+WY     5357     27.6</pre>
  </div>
-</section><section class="size-70 slide" id="slide-number-5">
- <h3 class="text-landing">
+</section><section class="slide" id="slide-number-7">
+ <h1>
   <text>
-   Shakespeare
+   Orthography, (TO BE DONE)
+  </text>
+ </h1>
+</section><section class="bg-black slide" id="slide-number-8">
+ <span class="background dark" style="background-image:url('https://source.unsplash.com/y9zUTieUc-U')">
+ </span>
+ <div class="wrap">
+  <h1>
+   <text>
+    Sentiment analysis
+   </text>
+  </h1>
+  <h4>
+   <text>
+    Used
+    <a href="https://github.com/cjhutto/vaderSentiment">
+     VADER
+    </a>
+    (Valence Aware Dictionary and sEntiment Reasoner), a sentiment analysis tool tuned for social media. Cat examples:
+   </text>
+  </h4>
+  <text>
    <br>
-    to Lovecraft
+    <br/>
    </br>
   </text>
- </h3>
- <div class="text-context text-intro">
-  <text>
-   She will not prove before the dispatch, fair issue of the heavens which
-  </text>
-  <text>
-   I think, I say, if this hath arrived with a held milk to me, and I grant
-  </text>
-  <text>
-   shadow from the earth of love and steads and qualities. For your head, who
-  </text>
-  <text>
-   had twill a garland you shall know, and therefore did we know the long prime,
-  </text>
-  <text>
-   that those obscurely prunes were sure not only at your son. As I at London's
-  </text>
-  <text>
-   mist ever may be pack mountain to proven with ruins: but if I saw that there
-  </text>
-  <text>
-   was none faint at that, I should be sure than the nature was now thanking of
-  </text>
-  <text>
-   a common and unheard wings: but lest, woo always by the cornered woman
-  </text>
-  <text>
-   watched an instant, which was purely good light: he held him, knew thy stars
-  </text>
-  <text>
-   and nameless fills in five windows and the local experiment.
-  </text>
+  <div class="wrap text-intro">
+   <ul class="markdownlist">
+    <li>
+     <text>
+      I hate cats.. just evil little fuckers
+      <strong style="color:#c23">
+       (-0.9137)
+      </strong>
+     </text>
+    </li>
+    <li>
+     <text>
+      I just want to go to fucking sleep these stupid ass cats are fighting right outside my window
+      <strong style="color:#c23">
+       (-0.8542)
+      </strong>
+     </text>
+    </li>
+    <li>
+     <text>
+      I just got a cat fucking drunk and he's abusive
+      <strong style="color:#c23">
+       (-0.7841)
+      </strong>
+     </text>
+    </li>
+    <li>
+     <text>
+      Let your cat be a fucking cat. (0.0)
+     </text>
+    </li>
+    <li>
+     <text>
+      honestly scaring cats is fucking hilarious
+      <strong>
+       (0.4754)
+      </strong>
+     </text>
+    </li>
+    <li>
+     <text>
+      I FUCKING LOVE MY CATS SO MUCH LOOK AT THIS BEAUTIFUL GUY I SWEAR WHAT A SMART LOYAL LOVING ANIMAL GIFTED TO ME
+      <strong>
+       (0.9577)
+      </strong>
+     </text>
+    </li>
+   </ul>
+   <text>
+    <br/>
+   </text>
+  </div>
  </div>
-</section><section class="size-70 slide" id="slide-number-6">
- <h3 class="text-landing">
+</section><section class="slide" id="slide-number-9">
+ <h1>
   <text>
-   Tolstoy to Joyce
+   Thanks, you.
   </text>
- </h3>
- <div class="text-intro text-context">
-  <text>
-   They are lying, but bonded out in danger as lovely? "I hope they are to say
-  </text>
-  <text>
-   anywhere, I'm a new money. I am for I'd invent it a folk are not leaving
-  </text>
-  <text>
-   to marry?" asked then at all. "Don't know what I have in his mind". Pick,
-  </text>
-  <text>
-   and justice from the young men, who left her more than his horror he did
-  </text>
-  <text>
-   not succeed it. That pupil, a thing and events and starts, having heard it
-  </text>
-  <text>
-   in spite, and old situation husband in heaven to the latterly society and
-  </text>
-  <text>
-   the influence of window of men in hearth and the whole house is before it's
-  </text>
-  <text>
-   all you have into standing up to pity. do you know that about the dark?
-  </text>
-  <text>
-   Perished the candles and the fair waves had a gentle interest.
-  </text>
- </div>
+ </h1>
 </section>
    </article>
   </main>

@@ -2,7 +2,7 @@
 
 A geographical, statistical, and orthographic study of fucks on twitter.
 A total of 10,740,172 tweets were collected, 228,641 contained the word fuck.
-The national average is 2.1 fucks per 100 tweets.
+The national average is 2.3 fucks per 100 tweets.
 
 #### Geographical analysis
 

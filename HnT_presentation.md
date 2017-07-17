@@ -10,7 +10,7 @@
 
 @h3 .size-80 .wrap .alignleft
     + there are a lot of _fucks_ on twitter
-    + in fact, **2.1%** of all tweets on twitter contain the word _fuck_
+    + in fact, **2.3%** of all tweets on twitter contain the word _fuck_
     + yes, really
     + _..._
     + a study of twitter is a study of its users
@@ -30,45 +30,62 @@
     <br>
     [https://github.com/thoppe/twitterf_cks](https://github.com/thoppe/twitterf_cks)
 
----- .bg-black 
-@unsplash(MzIiekUr6m8) 
+---- .aligncenter .bg-black
+# Geographical analysis, city level
+@figure(figures/fucks_given_per_city.png)
 
-.size-60 .bg-trans-dark .alignleft
-  @h4 .text-landing **Lovecraft bot** 
-  .text-intro ... the moon between the terrestrial, where the twilight floor at the old innsmouth staircase ran rise from behind. No one could not absent to all the thing of publicly suggestion. above my frightful more I suspected that the
+---- .aligncenter .bg-black
+# Geographical analysis, state level
+@figure(figures/fucks_given_national.png)
 
-  @line
-    
-  @h4 .text-landing **Hemmingway bot**
-  .text-intro ...the moon will clear the cold. I was like a brown mother. Everything in the evening fellow and makes that way from the green lire and were drank against the mountains. The sun was on the branch contempt.
+---- .bg-black
+@unsplash(zlABb6Gke24) .dark
 
----- .size-70
+# Least fucks given
+```
+State, total, # of fucks per 1000 tweets
+=====================================================
+MT     9976    10.4
+AR     36957   11.2 
+DC     94142   11.7
+NE     42636   13.6
+MO     108180  13.7
+```
 
-@h3 .text-landing Shakespeare <br> to Lovecraft
-.text-context .text-intro
+# Most fucks given
+```
+State, total, # of fucks per 1000 tweets
+=====================================================
+ND     7699     23.4
+LA     216023   23.4
+AZ     173604   24.8
+NV     127481   25.9
+CA     1377434  26.7
+WY     5357     27.6
+```
 
-  She will not prove before the dispatch, fair issue of the heavens which
-  I think, I say, if this hath arrived with a held milk to me, and I grant
-  shadow from the earth of love and steads and qualities. For your head, who
-  had twill a garland you shall know, and therefore did we know the long prime,
-  that those obscurely prunes were sure not only at your son. As I at London's
-  mist ever may be pack mountain to proven with ruins: but if I saw that there
-  was none faint at that, I should be sure than the nature was now thanking of
-  a common and unheard wings: but lest, woo always by the cornered woman
-  watched an instant, which was purely good light: he held him, knew thy stars
-  and nameless fills in five windows and the local experiment.
+----
+# Orthography, (TO BE DONE)
 
----- .size-70
+---- .bg-black
+@unsplash(y9zUTieUc-U) .dark
 
- @h3 .text-landing Tolstoy to Joyce
- .text-intro .text-context
+# Sentiment analysis
+#### Used [VADER](https://github.com/cjhutto/vaderSentiment) (Valence Aware Dictionary and sEntiment Reasoner), a sentiment analysis tool tuned for social media. Cat examples:
+<br><br>
 
-  They are lying, but bonded out in danger as lovely? "I hope they are to say
-  anywhere, I'm a new money. I am for I'd invent it a folk are not leaving
-  to marry?" asked then at all. "Don't know what I have in his mind". Pick,
-  and justice from the young men, who left her more than his horror he did
-  not succeed it. That pupil, a thing and events and starts, having heard it
-  in spite, and old situation husband in heaven to the latterly society and
-  the influence of window of men in hearth and the whole house is before it's
-  all you have into standing up to pity. do you know that about the dark?
-  Perished the candles and the fair waves had a gentle interest.
+.wrap .text-intro
+  + I hate cats.. just evil little fuckers *(-0.9137)*
+  + I just want to go to fucking sleep these stupid ass cats are fighting right outside my window *(-0.8542)*
+  + I just got a cat fucking drunk and he's abusive *(-0.7841)*
+
+  <br>
+  
+  + Let your cat be a fucking cat. (0.0)
+  + honestly scaring cats is fucking hilarious **(0.4754)**
+  + I FUCKING LOVE MY CATS SO MUCH LOOK AT THIS BEAUTIFUL GUY I SWEAR WHAT A SMART LOYAL LOVING ANIMAL GIFTED TO ME **(0.9577)**
+
+
+-----
+
+# Thanks, you.
