@@ -20,7 +20,7 @@ State level aggregation dataset provided in [`data/fucks_to_give_geo_state.csv`]
 |DC	| 94142| 0.556|
 |NE	| 42636|0.647|
 |MO	| 108180|0.654|
-|xxx   | xxx |xxx |
+|[...](data/fucks_to_give_geo_state.csv)   | [...](data/fucks_to_give_geo_state.csv) | [...](data/fucks_to_give_geo_state.csv) |
 |ND	|7699 |	1.116|
 |LA	| 216023| 	1.116|
 |AZ	| 173604|	1.179|
