@@ -23,6 +23,11 @@
     + a study of twitter is a study of its users
     + coincidentally, our head of state uses twitter
 
+<br><br>
+
+@h4 .wrap .alignleft .size-80
+    "Every time I speak of the haters and losers I do so with great love and affection. They cannot help the fact that they were born *fucked* up!" &mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/516382177798680576">September 29, 2014</a>
+
 ---- .bg-black
 @unsplash(Skf7HxARcoc) .dark
 
