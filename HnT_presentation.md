@@ -108,14 +108,15 @@ fuuuuuuuck    72
   ```
   Link to [full list](data/fuck_variations.csv).
 
------ .aligncenter
-# Optimal number of repeated vowels peaks at 4
+----- .aligncenter .bg-black
+## Number of repeated vowels peaks at 4
 @figure(figures/fuuuucks.png)
 
------
-@h1 .text-landing **Statistics**
-"shit" is (ever so slightly) more popular than "fuck"!?
+----- .wrap
 
+@h1 .text-landing **Statistics**
+"shit" is (ever so slightly) more popular than "fuck"!? <br>
+List taken from Slate article [Top Swear Words on Facebook](http://www.slate.com/blogs/lexicon_valley/2013/09/11/top_swear_words_most_popular_curse_words_on_facebook.html).
 ```
 curse, fraction of curse words
 ==================================
@@ -135,7 +136,6 @@ slut       0.002449
 fag        0.002342
 darn       0.001761
 ```
-List taken from Slate article [Top Swear Words on Facebook](http://www.slate.com/blogs/lexicon_valley/2013/09/11/top_swear_words_most_popular_curse_words_on_facebook.html).
 
 ----- .aligncenter
 ## Curse word colocation
@@ -165,7 +165,7 @@ $P(fuck|shit) > P(shit|fuck)$
   + I FUCKING LOVE MY CATS SO MUCH LOOK AT THIS BEAUTIFUL GUY I SWEAR WHAT A SMART LOYAL LOVING ANIMAL GIFTED TO ME **(0.9577)**
 
 
------
+----- .size-80 .wrap
 
 # Thanks, you.
 ### [https://github.com/thoppe/twitterf_cks](https://github.com/thoppe/twitterf_cks)
