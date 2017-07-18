@@ -4,6 +4,13 @@
 .text-data **TWITTER f_cks**
 @h4 A geographical, statistical, and orthographic study of all the fucks on twitter.
 
+
+@footer @div .wrap @div .span
+ @button(href="https://github.com/thoppe/twitterf_cks") .alignleft .ghost
+   ::github:: Project repo
+ @button(href="https://twitter.com/metasemantic") .ghost .alignright
+   ::twitter:: @metasemantic 
+
 ---- .bg-white
 
 @h1 wait, why?
@@ -105,6 +112,39 @@ fuuuuuuuck    72
 # Optimal number of repeated vowels peaks at 4
 @figure(figures/fuuuucks.png)
 
+-----
+@h1 .text-landing **Statistics**
+"shit" is (ever so slightly) more popular than "fuck"!?
+
+```
+curse, fraction of curse words
+==================================
+shit       0.333857
+fuck       0.331616
+bitch      0.125879
+damn       0.088843
+dick       0.027923
+piss       0.026053
+pussy      0.017165
+crap       0.015854
+asshole    0.011103
+cock       0.010084
+douche     0.002595
+bastard    0.002477
+slut       0.002449
+fag        0.002342
+darn       0.001761
+```
+List taken from Slate article [Top Swear Words on Facebook](http://www.slate.com/blogs/lexicon_valley/2013/09/11/top_swear_words_most_popular_curse_words_on_facebook.html).
+
+----- .aligncenter
+## Curse word colocation
+$P(fuck|darn) \gg P(*|darn)$
+$P(more\ cock|cock) \gg P(*|cock)$
+$P(fuck|shit) > P(shit|fuck)$
+@figure(figures/curse_colocation.png)
+
+
 ---- .bg-black
 @unsplash(y9zUTieUc-U) .dark
 
@@ -128,3 +168,10 @@ fuuuuuuuck    72
 -----
 
 # Thanks, you.
+### [https://github.com/thoppe/twitterf_cks](https://github.com/thoppe/twitterf_cks)
+### [@metasemantic](https://twitter.com/metasemantic")
+
+<br><br>
+
+## Shoutout to Rebecca Meseroll for the fucking feedback.
+
