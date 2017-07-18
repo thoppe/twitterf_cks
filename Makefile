@@ -1,7 +1,7 @@
 all:
 	miniprez HnT_presentation.md
 watch:
-	miniprez HnT_presentation.md
+	miniprez HnT_presentation.md --watch 1
 edit:
 	xdg-open HnT_presentation.md
 view:

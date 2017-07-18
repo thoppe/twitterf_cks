@@ -36,8 +36,6 @@ Measuring variations of fucks like repeated letters. Full dataset provided in [`
 ![repeated_fucks](figures/fuuuucks.png "Fuuuucks")
 
 
-
-
 #### Sentiment analysis
 
 Full dataset provided in [`data/fucking_sentiment.csv`](data/fucking_sentiment.csv), selected fucks with the word cat in them are shown.

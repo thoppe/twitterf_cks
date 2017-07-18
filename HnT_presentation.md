@@ -64,13 +64,52 @@ CA     1377434  26.7
 WY     5357     27.6
 ```
 
-----
-# Orthography, (TO BE DONE)
+---- .bg-white
+@unsplash(FFZjSpUwc_I) .dark
+
+.wrap 
+  # .text-landing **Orthography**
+  ### Examine variations in the _spelling_, ex. fuuuck, fvck, f$$$uck, ...
+  <br><br>  <br><br>  <br><br>
+
+  ## Fucking *regex*
+  ## `(f+)([aoyvu%s]+)(c+k+)` % `"!@#$%^*+-"`
+
+----- .bg-black
+.wrap
+  ## Spelling Variants
+
+  ```
+word, count
+==================================
+fuck      248091
+f*ck        1031 <---------- self-censorship?
+fuckkkk      419
+fuckkk       390
+fvck         387
+fuckk        383
+fuckkkkk     337
+fuuuuck      263 <---------- peak repeat?
+fack         242
+fuuuuuck     227
+fuuuck       206 
+fuckkkkkk    157
+fuuuuuuck    130
+fock         125
+fvckk         79
+fuuuuuuuck    72
+  ```
+  Link to [full list](data/fuck_variations.csv).
+
+----- .aligncenter
+# Optimal number of repeated vowels peaks at 4
+@figure(figures/fuuuucks.png)
 
 ---- .bg-black
 @unsplash(y9zUTieUc-U) .dark
 
-# Sentiment analysis
+@h1 .text-landing **Sentiment analysis**
+
 #### Used [VADER](https://github.com/cjhutto/vaderSentiment) (Valence Aware Dictionary and sEntiment Reasoner), a sentiment analysis tool tuned for social media. Cat examples:
 <br><br>
 

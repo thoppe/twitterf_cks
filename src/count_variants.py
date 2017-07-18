@@ -13,7 +13,7 @@ def read_pattern(f, keywords=[]):
     f_out = os.path.join(save_dest,os.path.basename(f)).replace('.txt','.csv')
 
     data = []
-    center = re.escape("aeioyvu!@#$%^&*+-_")
+    center = re.escape("aoyvu!@#$%^&*+-_")
     pattern = r'(f+)([%s]+)(c+k+)'%center
     match_pattern = re.compile(pattern, re.IGNORECASE)
     
