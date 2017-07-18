@@ -14,19 +14,17 @@ def read_pattern(f, keywords=[]):
 
     data = []
     center = re.escape("aeioyvu!@#$%^&*+-_")
-    print center
-    exit()
-    pattern = re.compile(r'(f+)([%s]+)(c+k+)'%center, re.IGNORECASE)
+    pattern = r'(f+)([%s]+)(c+k+)'%center
+    match_pattern = re.compile(pattern, re.IGNORECASE)
     
     with open(f) as FIN:
         for line in FIN:
             js = json.loads(line)
             text = unidecode(js["text"])
-            for m in pattern.findall(text):
+            for m in match_pattern.findall(text):
                 word = ''.join(m).lower()
                 C[word] += 1
     return C
-
 
 
 func = joblib.delayed(read_pattern)
@@ -40,4 +38,5 @@ with joblib.Parallel(-1) as MP:
 df = pd.Series(C).sort_values(ascending=False).reset_index()
 df = pd.DataFrame(df)
 df.columns = ['word','count']
-df.set_index('word').to_csv("fucking_variants.csv")
+df.set_index('word').to_csv("data/fuck_variations.csv")
+print df
