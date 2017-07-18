@@ -29,6 +29,15 @@ State level aggregation dataset provided in [`data/fucks_to_give_geo_state.csv`]
 |WY	| 5357|	27.6|
 
 
+#### Orthographic analysis
+
+Measuring variations of fucks like repeated letters. Full dataset provided in [`data/fuck_variations.csv`](data/fuck_variations.csv).
+
+![repeated_fucks](figures/fuuuucks.png "Fuuuucks")
+
+
+
+
 #### Sentiment analysis
 
 Full dataset provided in [`data/fucking_sentiment.csv`](data/fucking_sentiment.csv), selected fucks with the word cat in them are shown.
