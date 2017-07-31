@@ -6,6 +6,7 @@ The national average is 2.3 fucks per 100 tweets.
 
 
 A detailed analysis can be found on Medium
+
 https://medium.com/@travis.hoppe/washington-d-c-gives-no-fucks-be51aa152fe
 
 While a shorter presentation from Hack && Tell DC is at
