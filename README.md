@@ -1,17 +1,15 @@
 # Twitter fucks
 
-A geographical, statistical, and orthographic study of fucks on twitter.
+A geographical, statistical, and orthographic study of fucks on twitter, by [@metasemantic](https://twitter.com/metasemantic?lang=en) and [@robotwarning](https://twitter.com/robotwarning).
 A total of 10,740,172 tweets were collected, 228,641 contained the word fuck.
 The national average is 2.3 fucks per 100 tweets.
 
+### Press & Analysis
 
-A detailed analysis can be found on Medium
-
-https://medium.com/@travis.hoppe/washington-d-c-gives-no-fucks-be51aa152fe
-
-While a shorter presentation from Hack && Tell DC is at
-
-https://thoppe.github.io/twitterf_cks/HnT_presentation.html
++ [Medium](https://medium.com/@travis.hoppe/washington-d-c-gives-no-fucks-be51aa152fe) Washington, D.C. gives no fucks (TH & RM)
++ [Hack && Tell](https://thoppe.github.io/twitterf_cks/HnT_presentation.html) First presented during round 46 (TH)
++ [Reddit](https://www.reddit.com/r/dataisbeautiful/comments/6rosek/fuuuuck_orthographic_repetition_on_twitter_oc/) "Fuuuuck", orthographic repetition on Twitter
++ [7:30 DC](http://mailchi.mp/730dc/are-you-a-young-or-old-millennial-731441) DC DGAF ¯\_(ツ)_/¯
 
 #### Geographical analysis
 
