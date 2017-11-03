@@ -10,7 +10,7 @@ The national average is 2.3 fucks per 100 tweets.
 + [Hack && Tell](https://thoppe.github.io/twitterf_cks/HnT_presentation.html) First presented during round 46 (TH)
 + [Reddit](https://www.reddit.com/r/dataisbeautiful/comments/6rosek/fuuuuck_orthographic_repetition_on_twitter_oc/) "Fuuuuck", orthographic repetition on Twitter
 + [7:30 DC](http://mailchi.mp/730dc/are-you-a-young-or-old-millennial-731441) DC DGAF ¯\_(ツ)_/¯
-+ [DCist](static/archived_dcist.html) D.C. Gives Fewer F*cks Than The Rest Of The Country (On Twitter, Anyway), _archived version since DCist shut down_
++ [DCist](https://thoppe.github.io/twitterf_cks/static/archived_dcist.html)[_archived_] D.C. Gives Fewer F*cks Than The Rest Of The Country (On Twitter, Anyway)
 
 #### Geographical analysis
 
